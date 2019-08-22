@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/black"
+    android:padding="@dimen/dim20dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_margin="@dimen/dim20dp"
+    android:layout_height="wrap_content">
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim10dp"
+        android:background="@drawable/record_background"
+        android:id="@+id/enter_name"
+        android:maxLength="10"
+        android:hint="@string/enter_name"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:layout_margin="@dimen/dim20dp"
+        android:id="@+id/import_file"
+        android:src="@drawable/ic_folder_open_black_24dp"
+        android:padding="@dimen/dim20dp"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_next_black_24dp"
+        android:background="@drawable/circle"
+        android:padding="@dimen/dim20dp"
+        android:layout_margin="@dimen/dim20dp"
+        android:id="@+id/next"
+        />
+
+</LinearLayout>
